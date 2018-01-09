@@ -11,6 +11,10 @@ import org.springframework.stereotype.Component;
 @CommonsLog
 public class EmailSender {
 
+    /**
+     * Before send mail first prepare @MailObject
+     * @param mailObject
+     */
     public void prepareAndSend(MailObject mailObject) {
      log.info("Mail Send Successfully!");
   }
